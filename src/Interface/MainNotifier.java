@@ -8,7 +8,7 @@ public class MainNotifier {
         Notifier notifier=new EmailNotifier();
         notifier.notifyUser(email);
         Notifier s=new SmsNotifier();
-        s.notifyUser(sms);
+        s.notifyUser(sms);g
         Notifier p=new PushNotifier();
         p.notifyUser(push);
 
